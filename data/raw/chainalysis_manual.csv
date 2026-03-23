@@ -1,0 +1,15 @@
+iso3,year,chainalysis_rank,chainalysis_score,country
+ARG,2023,15,0.29,Argentina
+ARG,2024,15,0.29,Argentina
+TUR,2023,11,0.34,Turkey
+TUR,2024,11,0.34,Turkey
+EGY,2023,44,0.18,Egypt
+EGY,2024,44,0.18,Egypt
+VEN,2023,13,0.31,Venezuela
+VEN,2024,13,0.31,Venezuela
+NGA,2023,2,0.61,Nigeria
+NGA,2024,2,0.61,Nigeria
+USA,2023,4,0.55,United States
+USA,2024,4,0.55,United States
+IND,2023,1,0.68,India
+IND,2024,1,0.68,India

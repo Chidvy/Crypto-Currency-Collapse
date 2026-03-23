@@ -1,0 +1,27 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     crypto_demand_score   R-squared:                       0.120
+Model:                             OLS   Adj. R-squared:                 -0.012
+Method:                  Least Squares   F-statistic:                    0.9104
+Date:                 Sat, 21 Mar 2026   Prob (F-statistic):              0.454
+Time:                         20:02:38   Log-Likelihood:                -2.7414
+No. Observations:                   24   AIC:                             13.48
+Df Residuals:                       20   BIC:                             18.20
+Df Model:                            3                                         
+Covariance Type:             nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.4573      0.061      7.539      0.000       0.331       0.584
+inflation_pct           0.0992      0.111      0.890      0.384      -0.133       0.332
+fx_depreciation_pct     0.0205      0.106      0.193      0.849      -0.201       0.242
+log_gdp                 0.0550      0.071      0.780      0.445      -0.092       0.202
+==============================================================================
+Omnibus:                        2.317   Durbin-Watson:                   1.992
+Prob(Omnibus):                  0.314   Jarque-Bera (JB):                1.159
+Skew:                          -0.055   Prob(JB):                        0.560
+Kurtosis:                       1.929   Cond. No.                         3.44
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
